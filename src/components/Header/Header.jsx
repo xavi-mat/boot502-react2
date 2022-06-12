@@ -8,13 +8,13 @@ const Header = (props) => {
         <TextButton name="About Guggle" />
         <TextButton name="Chop" />
       </div>
-      <div class="header-right">
+      <div className="header-right">
         <TextButton name="Gemeil" />
         <TextButton name="Imeiches" />
-        <a href="#" class="appsButtonContainer">
-          <img src={app} alt="Guggle aps" class="appsButton" />
+        <a href="/" className="appsButtonContainer">
+          <img src={app} alt="Guggle aps" className="appsButton" />
         </a>
-        <a href="#" class="loginButton">Sain in</a>
+        <a href="/" className="loginButton">Sain in</a>
       </div>
     </header>
   );

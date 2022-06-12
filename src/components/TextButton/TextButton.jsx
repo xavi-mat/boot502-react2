@@ -1,6 +1,6 @@
 const TextButton = ({name}) => {
     return (
-        <a href="#">{name}</a>
+        <a href="/">{name}</a>
     );
 };
 
