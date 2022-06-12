@@ -18,7 +18,7 @@ header {
     position: relative;
     padding: 6px;
 }
-header > div > a {
+.header-txtbtn {
     padding: 8px;
     font-size: 13px;
     color: #5f6368;
@@ -30,17 +30,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-/* .header-right {
-    box-sizing: border-box;
-    height: 48px;
-    line-height: normal;
-    padding: 0 4px;
-    padding-left: 4px;
-    padding-left: 30px;
-    flex: 0 0 auto;
-    justify-content: flex-end;
-} */
 
 .loginButton {
     background: #1a73e8;
@@ -170,6 +159,6 @@ button:hover {
     font-size: small;
 }
 
-.languages > a {
+.lang-txtbtn {
     color: #1a0dab;
 }

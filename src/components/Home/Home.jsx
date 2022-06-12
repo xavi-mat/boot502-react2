@@ -22,10 +22,10 @@ const Home = (props) => {
 
       <div className="languages">
         <span>Guggle ofered in:</span>
-        <TextButton name="Españó" />
-        <TextButton name="valencià" />
-        <TextButton name="galego" />
-        <TextButton name="euskara" />
+        <TextButton name="Españó" classSect="lang" />
+        <TextButton name="valencià" classSect="lang" />
+        <TextButton name="galego" classSect="lang" />
+        <TextButton name="euskara" classSect="lang" />
       </div>
 
     </main>

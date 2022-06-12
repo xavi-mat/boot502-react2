@@ -1,6 +1,6 @@
-const TextButton = ({name}) => {
+const TextButton = ({classSect, name}) => {
     return (
-        <a href="/">{name}</a>
+        <a href="/" className={classSect+'-txtbtn'}>{name}</a>
     );
 };
 
